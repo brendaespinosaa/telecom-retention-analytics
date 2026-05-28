@@ -21,7 +21,7 @@ This project combines:
 
 # 📸 Dashboard Preview
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](/images/dashboard_preview.png)
 
 ---
 
