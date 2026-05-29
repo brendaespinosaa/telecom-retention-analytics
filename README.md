@@ -1,5 +1,10 @@
 # 📦 Telecom Retention Analytics
 
+![SQL](https://img.shields.io/badge/SQL-Advanced-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
+![Analytics](https://img.shields.io/badge/Business-Analytics-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## 📖 Overview
 This project focuses on analyzing customer churn (retention) for a telecom company using data analytics and machine learning techniques.
 
@@ -74,7 +79,7 @@ telecom-retention-analytics/
 └── README.md
 ```
 
-🔍 Exploratory Data Analysis (SQL + Python)
+## 🔍 Exploratory Data Analysis (SQL + Python)
 
 The analysis includes:
 
@@ -84,7 +89,7 @@ Customer segmentation analysis
 Churn distribution analysis
 Cohort and retention analysis
 Revenue and risk insights
-📈 Visualizations
+### 📈 Visualizations
 Executive Overview
 
 Churn Analysis
@@ -97,7 +102,7 @@ Feature Importance
 
 Model Results
 
-🧠 Feature Engineering
+## 🧠 Feature Engineering
 
 Key features used in the modeling process:
 
@@ -109,7 +114,7 @@ Customer behavioral attributes
 
 These features help capture churn risk patterns and customer behavior signals.
 
-🤖 Machine Learning Model
+## 🤖 Machine Learning Model
 
 A Random Forest Classifier was used to predict customer churn.
 
@@ -118,7 +123,7 @@ Why this model:
 Handles non-linear relationships
 Works well with mixed feature types
 Provides feature importance insights
-📊 Model Evaluation
+### 📊 Model Evaluation
 
 The model was evaluated using:
 
@@ -130,7 +135,7 @@ ROC-AUC
 
 The results show strong performance in identifying customers at risk of churn.
 
-💼 Business Insights
+## 💼 Business Insights
 
 Key insights from the analysis:
 
@@ -139,7 +144,7 @@ Customers with low tenure are more likely to churn
 Higher monthly charges increase churn probability
 Lack of additional services is linked to churn behavior
 Early engagement is critical for retention
-🎯 Project Goals
+### 🎯 Project Goals
 
 This project demonstrates:
 
@@ -149,7 +154,7 @@ Exploratory data analysis (EDA)
 Predictive modeling with Python
 Business-oriented storytelling
 Dashboard reporting
-📌 Future Improvements
+### 📌 Future Improvements
 
 Possible next steps:
 
@@ -158,5 +163,3 @@ Advanced models (XGBoost, LightGBM)
 SHAP explainability for model interpretability
 Deployment as a Streamlit app
 Real-time churn prediction system
-
-*Created by Brenda Espinosa*
