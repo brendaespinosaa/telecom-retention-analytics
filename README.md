@@ -1,8 +1,11 @@
 # 📦 Telecom Retention Analytics
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-blue)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
-![Analytics](https://img.shields.io/badge/Business-Analytics-success)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-yellow)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboards-yellow)
+![Analytics](https://img.shields.io/badge/Data%20Analytics-Business-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## 📖 Overview
