@@ -71,7 +71,7 @@ telecom-retention-analytics/
 │   └── 08_star_schema.sql
 │
 ├── requirements.txt
-└── README.md
+└── README.md ```
 
 🔍 Exploratory Data Analysis (SQL + Python)
 
@@ -157,3 +157,5 @@ Advanced models (XGBoost, LightGBM)
 SHAP explainability for model interpretability
 Deployment as a Streamlit app
 Real-time churn prediction system
+
+*Created by Brenda Espinosa*
