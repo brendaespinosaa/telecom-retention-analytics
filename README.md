@@ -3,48 +3,70 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-yellow)
-![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
-![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboards-yellow)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboards-yellow)
 ![Analytics](https://img.shields.io/badge/Data%20Analytics-Business-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 📖 Overview
-This project focuses on analyzing customer churn (retention) for a telecom company using data analytics and machine learning techniques.
+---
 
-The main objective is to identify key drivers of customer churn and generate actionable insights to improve customer retention, reduce churn rate, and increase customer lifetime value.
+## 📌 Executive Summary
 
-The project combines SQL-based data exploration, Python-based predictive modeling, and dashboard visualizations to support business decision-making.
+This project delivers a **data-driven retention analysis framework** for a telecom company, focusing on identifying the primary drivers of customer churn and quantifying their business impact.
+
+Using a combination of **SQL analytics, Python-based machine learning, and dashboard reporting**, the solution enables the organization to proactively identify at-risk customers and optimize retention strategies.
 
 ---
 
-## 🚀 Technologies Used
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-Learn  
-- SQL  
-- Jupyter Notebook  
-- Power BI (dashboards)
+## 🎯 Business Objective
+
+The primary objective of this analysis is to:
+
+- Identify key drivers of customer churn  
+- Quantify churn risk across customer segments  
+- Enable proactive retention strategies  
+- Improve customer lifetime value (CLV)  
+- Reduce revenue leakage from avoidable churn  
 
 ---
 
-## 📊 Business Problem
-Telecom companies face significant churn rates driven by multiple factors such as:
+## 🧠 Key Business Questions
 
-- Contract type (month-to-month vs long-term)  
-- Monthly charges  
-- Tenure duration  
-- Customer support experience  
-- Service adoption and usage behavior  
+- Which customer profiles are most likely to churn?  
+- What contract types are associated with higher retention risk?  
+- How do pricing and tenure influence churn behavior?  
+- Which services reduce churn probability?  
+- How can we prioritize retention efforts effectively?  
 
-Understanding churn is essential to:
+---
 
-- Improve customer retention strategies  
-- Reduce revenue loss  
-- Increase customer lifetime value (CLV)  
-- Identify high-risk customers early  
+## 📊 Approach & Methodology
+
+This project follows a structured analytics pipeline:
+
+### 1. Data Engineering (SQL Layer)
+- Data cleaning and validation  
+- KPI extraction  
+- Cohort structuring  
+- Star schema modeling  
+
+### 2. Exploratory Analysis (EDA)
+- Customer segmentation  
+- Churn distribution analysis  
+- Revenue and tenure insights  
+- Behavioral pattern detection  
+
+### 3. Predictive Modeling (Python)
+- Feature engineering  
+- Classification modeling (Random Forest)  
+- Feature importance analysis  
+- Model evaluation using classification metrics  
+
+### 4. Visualization Layer
+- Executive dashboards  
+- Customer insights dashboards  
+- Retention cohort analysis  
+- Model performance reporting  
 
 ---
 
@@ -82,89 +104,49 @@ telecom-retention-analytics/
 └── README.md
 ```
 
-## 🔍 Exploratory Data Analysis (SQL + Python)
+### 📈 Key Insights (Business Impact)
 
-The analysis includes:
+Month-to-month contracts represent the highest churn risk segment
+Early lifecycle customers (low tenure) show significantly higher attrition
+Higher monthly charges correlate with increased churn probability
+Lack of additional services increases vulnerability to churn
+Retention strategies should prioritize early-stage customer engagement
 
-Data cleaning and quality checks (SQL)
-KPI extraction and business metrics
-Customer segmentation analysis
-Churn distribution analysis
-Cohort and retention analysis
-Revenue and risk insights
-### 📈 Visualizations
-Executive Overview
+### 🤖 Predictive Modeling
 
-Churn Analysis
+A Random Forest Classifier was implemented to estimate churn probability.
 
-Cohort Retention
-
-Customer Insights
-
-Feature Importance
-
-Model Results
-
-## 🧠 Feature Engineering
-
-Key features used in the modeling process:
-
-Tenure groups
-Contract type encoding
-Monthly charges segmentation
-Service usage indicators
-Customer behavioral attributes
-
-These features help capture churn risk patterns and customer behavior signals.
-
-## 🤖 Machine Learning Model
-
-A Random Forest Classifier was used to predict customer churn.
-
-Why this model:
-
-Handles non-linear relationships
-Works well with mixed feature types
-Provides feature importance insights
-### 📊 Model Evaluation
-
-The model was evaluated using:
-
+Model Strengths:
+Captures non-linear relationships
+Robust performance across mixed feature types
+Provides interpretability through feature importance
+Evaluation Metrics:
 Accuracy
 Precision
 Recall
 F1-Score
 ROC-AUC
+### 📊 Outcome
 
-The results show strong performance in identifying customers at risk of churn.
+The solution enables:
 
-## 💼 Business Insights
+Identification of high-risk customers before churn occurs
+Prioritization of retention campaigns
+Data-driven decision-making for customer success teams
+Improved visibility into revenue at risk
+### 🚀 Strategic Recommendations
 
-Key insights from the analysis:
+Implement early-life cycle retention programs (first 3–6 months)
+Incentivize long-term contracts to reduce churn exposure
+Bundle additional services to increase stickiness
+Monitor high-risk segments using predictive scoring models
+Integrate churn model into CRM workflows
+### 📌 Future Enhancements
 
-Month-to-month contracts show the highest churn rate
-Customers with low tenure are more likely to churn
-Higher monthly charges increase churn probability
-Lack of additional services is linked to churn behavior
-Early engagement is critical for retention
-### 🎯 Project Goals
-
-This project demonstrates:
-
-SQL-based data analysis
-Data cleaning and transformation
-Exploratory data analysis (EDA)
-Predictive modeling with Python
-Business-oriented storytelling
-Dashboard reporting
-### 📌 Future Improvements
-
-Possible next steps:
-
-Hyperparameter tuning (GridSearch / Optuna)
-Advanced models (XGBoost, LightGBM)
-SHAP explainability for model interpretability
-Deployment as a Streamlit app
-Real-time churn prediction system
+Model optimization (XGBoost / LightGBM)
+SHAP-based explainability layer
+Real-time churn scoring API
+Deployment via Streamlit or cloud dashboard
+Automated retraining pipeline
 
 *Created by Brenda Espinosa*
