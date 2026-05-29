@@ -163,3 +163,5 @@ Advanced models (XGBoost, LightGBM)
 SHAP explainability for model interpretability
 Deployment as a Streamlit app
 Real-time churn prediction system
+
+*Created by Brenda Espinosa*
