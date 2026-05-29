@@ -71,7 +71,8 @@ telecom-retention-analytics/
 │   └── 08_star_schema.sql
 │
 ├── requirements.txt
-└── README.md ```
+└── README.md
+```
 
 🔍 Exploratory Data Analysis (SQL + Python)
 
